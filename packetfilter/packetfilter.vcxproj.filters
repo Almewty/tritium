@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Network Stuff">
+      <UniqueIdentifier>{1f942c3f-ef79-448b-97d6-53a98a73dd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Data">
+      <UniqueIdentifier>{7a2239af-334f-4bc7-8873-6f60233b7c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Window">
+      <UniqueIdentifier>{9866155f-0d21-42c3-a3be-9618b1a30d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Network Stuff">
+      <UniqueIdentifier>{fd26aedc-5484-4cf9-83c8-908fc7ac90e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Data">
+      <UniqueIdentifier>{fbf48fc9-8b37-482b-8c0a-9f14779fe503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Window">
+      <UniqueIdentifier>{77ca43f5-49fa-4cc1-b541-75d82859cef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>Quelldateien\Network Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Quelldateien\Network Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="admin.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ban.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Quelldateien\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ip.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Quelldateien\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.hpp">
+      <Filter>Headerdateien\Network Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="network.hpp">
+      <Filter>Headerdateien\Network Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="admin.hpp">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ban.hpp">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.hpp">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.hpp">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Headerdateien\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ip.hpp">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Headerdateien\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.ico">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="pthreadVCE.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
